@@ -1,0 +1,12 @@
+{
+  "name": "freepomodoro-marketplace",
+  "owner": { "name": "arjunpunnam" },
+  "plugins": [
+    {
+      "name": "freepomodoro",
+      "source": "./plugins/freepomodoro",
+      "description": "Free Pomodoro focus timer: start focus sessions, breaks, and multi-step focus plans from Claude.",
+      "version": "0.1.0"
+    }
+  ]
+}
