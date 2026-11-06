@@ -4,7 +4,7 @@ A Claude Code plugin that adds the [Free Pomodoro](https://www.freepomodoro.io) 
 
 ## Install
 
-Requires [Claude Code](https://code.claude.com) and a Free Pomodoro account.
+Requires [Claude Code](https://code.claude.com). No account or sign-in needed.
 
 1. Add this marketplace:
 
@@ -18,9 +18,7 @@ Requires [Claude Code](https://code.claude.com) and a Free Pomodoro account.
    /plugin install freepomodoro@freepomodoro-marketplace
    ```
 
-3. Restart Claude Code, run `/mcp`, select **freepomodoro**, and sign in with your Free Pomodoro account when your browser opens.
-
-The tools only work after you sign in.
+3. Restart Claude Code and run `/mcp` to check that **freepomodoro** is connected.
 
 ## Usage
 
@@ -36,7 +34,7 @@ Ask Claude in plain language:
 | `start_break` | Break countdown, 1–60 min (default 5); starts right away |
 | `create_focus_plan` | Named plan of up to 12 tasks, each 1–180 min, with breaks in between |
 
-Each timer returns a link that opens it in the Free Pomodoro web app. Focus sessions and plans wait until you press Start.
+The connector keeps nothing you type. Each timer returns a link that opens it in the Free Pomodoro web app. Focus sessions and plans wait until you press Start.
 
 ## Update or remove
 
@@ -50,7 +48,6 @@ Each timer returns a link that opens it in the Free Pomodoro web app. Focus sess
 
 ## Troubleshooting
 
-- **freepomodoro shows "needs authentication" in `/mcp`:** select it and complete the sign-in.
 - **Tools don't appear:** restart Claude Code after installing, then check `/mcp`.
 
 ## Repository layout
