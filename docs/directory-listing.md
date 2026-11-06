@@ -38,10 +38,12 @@ Items in **[brackets]** still need to be filled in.
 
 - Server URL: `https://www.freepomodoro.io/mcp`
 - Website: `https://www.freepomodoro.io`
-- Docs page: **[URL, e.g. a "Use Free Pomodoro with Claude" page]**
-- Privacy policy: **[URL]**
+- Docs page: https://github.com/arjunpunnam/freepomodoro-claude-plugin#readme
+- Privacy policy: https://www.freepomodoro.io/privacy.html
 - Terms of service: **[URL]**
-- Support contact: **[email or URL]**
+- Support contact: contact@integrationinsightsinc.com
+- Company: Integration Insights Inc.
+- Slug: `freepomodoro`
 - Icon: **[square PNG/SVG logo]**
 - Test account for reviewers: **[email + password for an account with no real data — share in the submission form only, never commit it here]**
 
@@ -62,7 +64,7 @@ Items in **[brackets]** still need to be filled in.
 - [ ] OAuth discovery info is published at `/.well-known/oauth-protected-resource`.
 - [ ] `https://claude.ai/api/mcp/auth_callback` is an allowed OAuth redirect URL.
 - [ ] Server instructions and listing both say that sign-in is required.
-- [ ] Privacy policy, terms, docs page and support contact are live.
+- [ ] Privacy policy covers Google sign-in, Cloudflare, data retention, and what the Claude connector sends and receives.
 - [ ] `claude plugin validate ./plugins/freepomodoro` passes.
 
 ## References
