@@ -2,7 +2,7 @@
   "mcpServers": {
     "freepomodoro": {
       "type": "http",
-      "url": "https://REPLACE_WITH_FREEPOMODORO_MCP_URL/mcp"
+      "url": "https://www.freepomodoro.io/mcp"
     }
   }
 }
